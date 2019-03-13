@@ -1,6 +1,7 @@
 
 # How To Optimize Google Fonts
 <br/><br/>
+<div style="margin-left:3rem">
 ## Speeding Up Fonts Using Preconnect and Preload
 ```html
  <link 
@@ -16,7 +17,7 @@
   crossorigin="anonymous"
 >
 ```
-
+</div>
 ### Hosting Google Fonts Locally
 To donwload a full selection of Webfont formats for a specific Google font use <a href="https://google-webfonts-helper.herokuapp.com/fonts">google webfonts helper</a> 
 
