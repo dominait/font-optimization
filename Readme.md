@@ -1,23 +1,23 @@
 
 # How To Optimize Google Fonts
 <br/><br/>
-<div style="margin-left:3rem">
-## Speeding Up Fonts Using Preconnect and Preload
-```html
- <link 
-  rel="preconnect" 
-  href="https://fonts.gstatic.com" 
-  crossorigin
- >
-<link 
-  rel="preload" 
-  as="font" 
-  href="https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2" 
-  type="font/woff2"
-  crossorigin="anonymous"
->
-```
-</div>
+ 
+  ## Speeding Up Fonts Using Preconnect and Preload
+  ```html
+  <link 
+    rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin
+  >
+  <link 
+    rel="preload" 
+    as="font" 
+    href="https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2" 
+    type="font/woff2"
+    crossorigin="anonymous"
+  >
+  ```
+ 
 ### Hosting Google Fonts Locally
 To donwload a full selection of Webfont formats for a specific Google font use <a href="https://google-webfonts-helper.herokuapp.com/fonts">google webfonts helper</a> 
 
