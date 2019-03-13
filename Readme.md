@@ -20,6 +20,7 @@
 ```
 
 ### Hosting Google Fonts Locally
+To donwload a full selection of Webfont formats for a specific Google font use <a href="https://google-webfonts-helper.herokuapp.com/fonts">google webfonts helper</a> 
 
 ```html
    <link rel="preload" href="./fonts/lato-v14-latin-regular.woff2" as="font" crossorigin>
