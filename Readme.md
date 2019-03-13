@@ -1,9 +1,9 @@
 
-# Optimizing Google Fonts
-
-
-
-### Speeding Up Fonts Using Preconnect and Preload
+# How To Optimize Google Fonts
+  
+    
+      
+## Speeding Up Fonts Using Preconnect and Preload
 ```html
  <link 
   rel="preconnect" 
