@@ -1,15 +1,10 @@
 
 # Optimizing Google Fonts
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2" type="font/woff2"
-        crossorigin="anonymous">
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" type="font/woff2"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
 
-## Self Hosting Google Fonts
-```
+
+### Speeding Up Fonts Using Preconnect and Preload
+```html
  <link 
   rel="preconnect" 
   href="https://fonts.gstatic.com" 
@@ -22,6 +17,18 @@
   type="font/woff2"
   crossorigin="anonymous"
 >
+```
+
+### Hosting Google Fonts Locally
+
+```html
+ @font-face {
+    font-family: 'Lato';
+    font-display: block;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/lato-v14-latin-regular.woff2') format('woff2'),;
+ }
 ```
 
  
