@@ -20,8 +20,8 @@
   ```
  
 ### Hosting Google Fonts Locally
-For this method recommended by Google download the Google Font Webfont formats and use @fontface along with font-display This is an [example link](http://example.com/)..<br/>
-To donwload a full selection of Webfont formats for a specific Google font use <a href="https://google-webfonts-helper.herokuapp.com/fonts">google webfonts helper</a> 
+For this method recommended by Google download the Google Font Webfont formats and use @fontface along with font-display.<br/>
+To donwload a full selection of Webfont formats for a specific Google font use [google font helper](https://google-webfonts-helper.herokuapp.com/fonts).
 
 ```html
    <link rel="preload" href="./fonts/lato-v14-latin-regular.woff2" as="font" crossorigin>
