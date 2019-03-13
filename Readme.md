@@ -2,7 +2,8 @@
 # How To Optimize Google Fonts
 <br/><br/>
  
- ## Using Preconnect and Preload Externally Hosted Fonts
+ ### Using Preconnect and Preload For Externally Hosted Fonts
+ Use preconnect attribute of the link element to start a connection to the desired font resource. Then using prelod start the download of the font. You should see the font loaded just after the page load request.
   ```html
   <link 
     rel="preconnect" 
@@ -19,6 +20,7 @@
   ```
  
 ### Hosting Google Fonts Locally
+For this method recommended by Google download the Google Font Webfont formats and use @fontface along with font-display This is an [example link](http://example.com/)..<br/>
 To donwload a full selection of Webfont formats for a specific Google font use <a href="https://google-webfonts-helper.herokuapp.com/fonts">google webfonts helper</a> 
 
 ```html
