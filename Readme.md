@@ -2,7 +2,8 @@
 # How To Optimize Google Fonts
 <br/><br/>
  
- ##Using Preconnect and Preload For Externally Hosted Fonts
+ ## Using Preconnect and Preload
+ ## Externally Hosted Fonts
   ```html
   <link 
     rel="preconnect" 
