@@ -22,13 +22,18 @@
 ### Hosting Google Fonts Locally
 
 ```html
- @font-face {
-    font-family: 'Lato';
-    font-display: block;
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/lato-v14-latin-regular.woff2') format('woff2'),;
- }
+   <link rel="preload" href="./fonts/lato-v14-latin-regular.woff2" as="font" crossorigin>
+    <style>
+      
+        @font-face {
+            font-family: 'Lato';
+            font-display: block;
+            font-style: auto;
+            font-weight: 400;
+            src: local('Lato Regular'),
+                url('./fonts/lato-v14-latin-regular.woff2') format('woff2');
+        }
+    </style>
 ```
 
  
