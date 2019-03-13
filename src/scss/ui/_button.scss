@@ -1,0 +1,24 @@
+%button-base {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 8px;
+    font-family: $heading;
+    font-size: 1.25rem;
+}
+
+
+
+button {}
+
+.bnd {
+    @extend %button-base;
+    background: $airbnb;
+}
+
+
+.teal {
+    @extend %button-base;
+    background-color: $lite-blue;
+}

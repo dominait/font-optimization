@@ -1,0 +1,20 @@
+Font Optimization:
+http://ashton.codes/preload-google-fonts-using-resource-hints/
+https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin
+https://www.youtube.com/watch?v=Mv-l3-tJgGk&feature=youtu.be&t=24m58s
+https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
+https://jonassebastianohlsson.com/criticalpathcssgenerator/
+https://alexwright.net/web-design-secrets/how-to-use-critical-css/
+https://github.com/pocketjoso/penthouse
+https://www.filamentgroup.com/lab/async-css.html
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization
+
+Optimizing Fonts
+https://developers.google.com/fonts/docs/getting_started
+Read Section: Optimze Your Font Request;
+
+
+
+Image Optimization:
+https://images.guide
+https://imageoptim.com/versions

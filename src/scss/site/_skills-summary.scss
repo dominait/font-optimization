@@ -1,0 +1,85 @@
+ .skills-summary {
+     max-width: 620px;
+     margin: 4rem auto;
+
+
+     h3 {
+         color: $med-blue;
+     }
+
+     .title {
+         font-size: $h3;
+         margin-bottom: 1.4rem;
+     }
+
+     dl {
+         font-family: "Open Sans";
+         line-height: 1.25rem;
+     }
+
+     dt {
+         font-size: 24px;
+         margin-bottom: 0.5rem;
+         font-weight: 700;
+     }
+
+     dd {
+         font-size: $s1;
+         margin-bottom: 1.75rem;
+         color: rgb(125, 125, 125);
+     }
+ }
+
+ @media(min-width:520px) {
+     dl {
+         padding: 0 2rem;
+     }
+ }
+
+ @media(min-width:1200px) {
+     .skills-summary {
+         max-width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin: 8rem auto;
+
+
+
+         dl,
+         img {
+             width: calc(50% - 13rem);
+             margin: 2rem 3rem;
+         }
+
+         dt {
+             font-size: 1.75rem;
+             margin-bottom: 1rem;
+             color: black;
+         }
+
+         dd {
+             font-size: 1.125rem;
+             line-height: 1.5rem;
+         }
+
+
+         .year-1996 {
+             width: 100%;
+         }
+
+         .title {
+             font-size: $h2;
+             margin-bottom: 1.4rem;
+             font-weight: 700;
+
+         }
+
+         h3 {
+             font-size: $h4;
+         }
+
+
+     }
+ }

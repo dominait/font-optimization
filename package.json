@@ -1,0 +1,25 @@
+{
+  "name": "fontoptimizer",
+  "version": "1.0.0",
+  "description": "google-font-optimiztaion",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominait/font-optimization.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "james foley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominait/font-optimization/issues"
+  },
+  "homepage": "https://github.com/dominait/font-optimization#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}
