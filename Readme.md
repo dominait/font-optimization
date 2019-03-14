@@ -1,7 +1,6 @@
 
 # How To Optimize Google Fonts
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bb8f2a9e-893b-46d5-ba91-7dd8376a67d5/deploy-status)](https://app.netlify.com/sites/fastfont/deploys)
-
 <br/>
 ### Using Preconnect and Preload For Externally Hosted Fonts
  Use preconnect attribute of the link element to start a connection to the desired font resource. Then using prelod start the download of the font. You should see the font loaded just after the page load request.
