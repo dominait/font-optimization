@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fast Font Optimization</title>
-
-
+    <!-- Hosted Font -->
+<!--      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> -->
+ 
+   <!-- Self  Hosted Font -->
     <!-- <link rel="preload" as="font" href="./fonts/lato-v14-latin-regular.woff2" crossorigin>
-    <link rel="preload" as="font" href="./fonts/lato-v14-latin-700.woff2" crossorigin> -->
+    <link rel="preload" as="font" href="./fonts/lato-v14-latin-700.woff2" crossorigin>  
     <link rel="preload" href="./fonts/lato-v14-latin-regular.woff2" as="font" crossorigin>
-    <link rel="preload" href="./fonts/lato-v14-latin-700.woff2" as="font" crossorigin>
+    <link rel="preload" href="./fonts/lato-v14-latin-700.woff2" as="font" crossorigin> -->
+
     <style>
-        /* lato-regular - latin */
-        @font-face {
+       
+        /* @font-face {
             font-family: 'Lato';
             font-display: block;
             font-style: swap;
@@ -23,25 +29,27 @@
                 url('./fonts/lato-v14-latin-regular.woff2') format('woff2');
         }
 
-        /* lato-700 - latin */
+      
         @font-face {
             font-family: 'Lato';
             font-style: normal;
             font-display: swap;
             font-weight: 700;
             src: local('Lato Bold'), url('./fonts/lato-v14-latin-700.woff2') format('woff2');
-        }
+        }   */
+ 
+       
+           
 
-        header h2 {
-            font-family: "Lato";
+     
+        .bold{
+            font-family: 'Lato', sans-serif;
             font-weight: 700;
-
         }
 
-        aside {
-            font-family: "Lato";
+        .light {
+            font-family: 'Lato', sans-serif;
             font-weight: 400;
-
         }
     </style>
 </head>
@@ -50,15 +58,15 @@
 
 
     <header>
-        <h2>
-            This Is Lato Weight 700
-        </h2>
+        <h1 class="bold">
+           Font Optimization
+        </h1>
     </header>
 
 
-    <aside>
+    <aside class="bold">
         <header>
-            <h3>Font Weight 400</h3>
+            <h3>Font Weight 700</h3>
         </header>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis impedit, blanditiis, mollitia
@@ -69,7 +77,7 @@
         </p>
     </aside>
 
-    <aside>
+    <aside class="light">
         <header>
             <h3>Font Weight 400</h3>
         </header>
