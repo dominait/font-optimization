@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/dominait/font-optimization#readme",
   "dependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   }
 }
