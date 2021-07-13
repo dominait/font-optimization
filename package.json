@@ -1,26 +1,22 @@
 {
-  "name": "fontoptimizer",
+  "name": "loading-stratagies",
   "version": "1.0.0",
-  "description": "google-font-optimiztaion",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "none"
-  },
+  "description": "loading stratagies for basic web apps using vanilla js (ES Modules)",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominait/font-optimization.git"
+    "url": "none"
   },
   "keywords": [
     "none"
   ],
-  "author": "james foley",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dominait/font-optimization/issues"
-  },
-  "homepage": "https://github.com/dominait/font-optimization#readme",
+  "author": "James Foley",
+  "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2",
-    "glob-parent": ">=5.1.2"
+    "bootstrap": "^5.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1",
+    "snowpack": "^3.7.1"
   }
 }

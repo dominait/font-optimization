@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../public/js/module.js", "../../public/js/index.js"],
+  "sourcesContent": ["export function changeBodyColor(color){\n    document.body.style.backgroundColor = color;\n}", "import {changeBodyColor} from './module.js'\n\nwindow.addEventListener('load', ()=>{\n    \ncolorChange.addEventListener(\"click\", ()=>{\n   changeBodyColor(\"hotpink\")\n})\n \n})"],
+  "mappings": "AAAO,WAAyB,EAAM,CAClC,SAAS,KAAK,MAAM,gBAAkB,ECC1C,OAAO,iBAAiB,OAAQ,IAAI,CAEpC,YAAY,iBAAiB,QAAS,IAAI,CACvC,EAAgB",
+  "names": []
+}

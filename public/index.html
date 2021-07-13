@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Loading</title>
-    <link rel="stylesheet" href="css/reboot.css" />
-    <link
-      rel="preload"
-      href="fonts/akaya-kanadaka-v4-latin-regular.woff2"
-      as="font"
-      type="font/woff2"
-    />
+    <!-- <link rel="stylesheet" href="css/reboot.css"> -->
+    <link rel="preload" href="fonts/akaya-kanadaka-v4-latin-regular.woff2" as="font" type="font/woff2">
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <style>
-      @font-face {
-        font-family: "Akaya Kanadaka";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local(""),
-          url("./fonts/akaya-kanadaka-v4-latin-regular.woff2") format("woff2"),
-          url("./fonts/akaya-kanadaka-v4-latin-regular.woff") format("woff");
-      }
-      body {
-        font-family: "Akaya Kanadaka";
-      }
-      header{
-        text-align: center;
-        font-size: 4rem;
-        padding: 4rem 0;;
-      }
-    </style>
+    @font-face{
+      font-family:"Akaya";
+      font-style:normal;
+      font-weight:400;
+      font-display: swap;
+      src:local(""),
+      url(./fonts/akaya-kanadaka-v4-latin-regular.woff2) format("woff2"),
+      url(./fonts/akaya-kanadaka-v4-latin-regular.woff) format("woff")}
+     
+    header{
+      font-family:"Akaya";
+      
+    text-align:center;
+    font-size:4rem;
+    padding:4rem 0;}
+    p{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
   </head>
   <body>
     <header>
-      <h1>Comming From SRC Folder</h1>
+      <h2>
+        This Is Being Mounted From THe Test Directory
+      </h2>
     </header>
     <div class="container">
       <!-- Center Margin 0 auto fluid width max width -->
@@ -77,6 +73,7 @@
         </div>
       </div>
     </div>
-   <script defer type="module" src="js/index.js"></script>
-  </body>
-</html>
+   <script defer="" type="module" src="js/index.js"></script>
+  
+
+</body></html>
